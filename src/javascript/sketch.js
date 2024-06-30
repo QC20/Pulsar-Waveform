@@ -3,7 +3,7 @@ let increment = 0.05;
 
 function setup() {
   let canvas = createCanvas(600, 600);
-  canvas.canvas.style.display = 'block'; // Ensure canvas is displayed as block
+  canvas.parent('canvas-container');
   strokeJoin(ROUND);
   stroke(255);
   fill(0);
